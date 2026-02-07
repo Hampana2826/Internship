@@ -33,16 +33,10 @@ class InstagramAccount:
             print("Password updated successfully.")
         else:
             print("Old password is incorrect.")
-
-
-
-
 account = InstagramAccount("john_doe", "1234")
-
 
 account.add_private_reel("Gym Reel")
 account.add_private_reel("Travel Reel")
-
 
 account.add_archived_reel("Old Birthday Reel")
 account.add_archived_reel("College Memories Reel")
